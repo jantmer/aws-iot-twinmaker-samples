@@ -5,7 +5,7 @@ import { useCallback, useEffect, useMemo, type PointerEventHandler } from 'react
 
 import { PanelLayout } from '@/lib/components/layouts';
 import { CloseAllIcon } from '@/lib/components/svgs/icons';
-import { CookieFactoryLogoWide } from '@/lib/components/svgs/logos';
+import { AWSLogo, CookieFactoryLogoWide } from '@/lib/components/svgs/logos';
 import { createClassName, type ClassName } from '@/lib/core/utils/element';
 import { PANELS } from '@/lib/init/panels';
 import { globalControlStore, useGlobalControlStore } from '@/lib/stores/control';
@@ -138,13 +138,10 @@ function Control({ panel: { icon, id, label } }: { panel: Panel }) {
     </button>
   );
 }
+//Todo      Commented out of emptystate <CookieFactoryLogoWide className={styles.emptyStateLogo} />
 
 function EmptyState() {
-  return (
-    <main className={styles.emptyState}>
-      <CookieFactoryLogoWide className={styles.emptyStateLogo} />
-    </main>
-  );
+  return <main className={styles.emptyState}></main>;
 }
 
 function removeGlobalControls(controls: GlobalControl[]) {

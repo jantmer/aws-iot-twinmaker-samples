@@ -1,7 +1,7 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 2023
 // SPDX-License-Identifier: Apache-2.0
 
-import { FactoryIcon } from '@/lib/components/svgs/icons';
+import { AirportIcon } from '@/lib/components/svgs/icons';
 import { createClassName, type ClassName } from '@/lib/core/utils/element';
 import { SITES } from '@/lib/init/sites';
 import { useSiteStore } from '@/lib/stores/site';
@@ -24,11 +24,12 @@ export function SiteSelectorView({ className }: { className?: ClassName }) {
   );
 }
 
+//Todo, make it a square
 function SiteElement({ handlePointerUp, site }: { handlePointerUp: (site: Site) => void; site: Site }) {
   return (
     <button className={styles.site} onPointerUp={() => handlePointerUp(site)}>
       <section className={styles.siteIcon}>
-        <FactoryIcon />
+        <AirportIcon />
       </section>
       <section className={styles.siteGroup}>
         <section className={styles.siteName}>{site.name}</section>

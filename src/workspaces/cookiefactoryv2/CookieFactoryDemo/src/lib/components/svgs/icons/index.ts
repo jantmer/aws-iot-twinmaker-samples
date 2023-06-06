@@ -22,3 +22,4 @@ export { PlusIcon } from './PlusIcon';
 export { SceneIcon } from './SceneIcon';
 export { TargetIcon } from './TargetIcon';
 export { TrendIcon } from './TrendIcon';
+export {AirportIcon} from './AirportIcon'

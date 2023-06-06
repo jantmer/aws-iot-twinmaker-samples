@@ -25,6 +25,7 @@ export function PersonaSelectorView({ className }: { className?: ClassName }) {
       try {
         const awsCredentials = await getAwsCredentials({ ...AWS_CREDENTIAL_CONFIG, username: email, password });
         setUser({ awsCredentials, email, firstName, icon, lastName, password, title });
+        console.log(firstName);
       } catch (e) {
         console.error(e);
         setUser(null);

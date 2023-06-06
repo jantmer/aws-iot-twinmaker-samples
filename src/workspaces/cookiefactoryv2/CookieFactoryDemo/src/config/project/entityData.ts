@@ -5,9 +5,37 @@ import type { ValueOf } from 'type-fest';
 
 import type { EntityData } from '@/lib/types';
 
-const DATA_PROPERTY_NAME_1 = 'Speed';
-const DATA_PROPERTY_NAME_2 = 'Temperature';
+const CHECKPOINT_PROPERTY = {
+  DATA_PROPERTY_NAME_1: 'People',
+  DATA_PROPERTY_NAME_2: 'Dwell-Time',
+  ALARM_PROPERTY_NAME_1: 'AlarmState'
+}
 
+const GATES_PROPERTY = {
+  DATA_PROPERTY_NAME_1: 'Date',
+  DATA_PROPERTY_NAME_2: 'Departure_Delay',
+  DATA_PROPERTY_NAME_3: 'Departure_Time',
+  DATA_PROPERTY_NAME_4: 'Destination',
+  DATA_PROPERTY_NAME_5: 'Flight-Num',
+  DATA_PROPERTY_NAME_6: 'Origin',
+  DATA_PROPERTY_NAME_7: 'Scheduled_Departure',
+  ALARM_PROPERTY_NAME_1: 'Flight_State'
+}
+
+const ESCALATOR_PROPERTY = {
+  DATA_PROPERTY_NAME_1: 'FlowRate',
+  DATA_PROPERTY_NAME_2: 'Vibration',
+  ALARM_PROPERTY_NAME_1: 'AlarmState'
+}
+
+const SOLAR_PROPERTY = {
+  DATA_PROPERTY_NAME_1: 'Power',
+  DATA_PROPERTY_NAME_2: 'Temp',
+  ALARM_PROPERTY_NAME_1: 'AlarmState'
+}
+
+
+//Cannot comment this,ignored export or alarm warnings will be thrown
 export const ALARM_PROPERTY_NAME = 'AlarmMessage';
 
 export const COMPONENT_NAMES = {
@@ -16,115 +44,246 @@ export const COMPONENT_NAMES = {
   PROCESS_STEP: 'ProcessStepComponent'
 };
 
+const ENTITY_IDs = {
+  CHECKIN: 'ed6ee472-c43e-402d-8d17-78ff2130f046',
+  CHECKIN2: 'e5b58a7d-a97e-498b-ac25-f4711bb25800',
+  CHECKIN3: '1ab8b859-c062-4955-b775-c7127c675fe1',
+  SECURITY: '3823faed-3815-469e-ba43-d02c253fcdc6',
+  SECURITY2: '308154ec-4339-46f9-b1b8-5f2de98d1fb7',
+  SECURITY3: 'ca934781-394a-46fa-a68a-6c1267ec3d82',
+  IMMIGRATION: 'e1c17ea8-a68e-43eb-92e9-05979d7c74b8',
+  IMMIGRATION2: '579ceee7-b30b-422e-a10b-8c33b4521317',
+  IMMIGRATION3: 'e1ac9f3a-3703-4de2-903c-28c946b208ba',
+  GATE: 'b4049f6f-2224-4ef8-b3e5-5e9b9136d66b',
+  GATE2: '00f01643-9672-46be-bc33-94b83d8f0865',
+  ESCALATOR1: '5f6bae83-1954-420a-ab19-8162800fa529',
+  ESCALATOR2: '8573db7b-c03c-41f4-943e-f57addba9677',
+  SOLAR1: 'a6638173-8ffa-4653-b329-e1be7112d4dd'
+}
+
 export const ENTITY_DATA: EntityData[] = [
   {
-    entityId: 'BOX_ERECTOR_142496af-df2e-490e-aed5-2580eaf75e40',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties(),
-    isRoot: true
+    entityId: ENTITY_IDs.CHECKIN,
+    componentName: 'CheckIn-1',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'BOX_SEALER_ad434a34-4363-4a36-8153-20bd7189951d',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties()
+    entityId: ENTITY_IDs.CHECKIN2,
+    componentName: 'CheckIn-2',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'COOKIE_FORMER_19556bfd-469c-40bc-a389-dbeab255c144',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties(),
-    isRoot: true
+    entityId: ENTITY_IDs.CHECKIN3,
+    componentName: 'CheckIn-3',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'CONVEYOR_LEFT_TURN_b28f2ca9-b6a7-44cd-a62d-7f76fc17ba45',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties()
+    entityId: ENTITY_IDs.SECURITY,
+    componentName: 'Security-1',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'CONVEYOR_RIGHT_TURN_c4f2df3d-26a2-45c5-a6c9-02ca00eb4af6',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties()
+    entityId: ENTITY_IDs.SECURITY2,
+    componentName: 'Security-2',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'CONVEYOR_STRIGHT_9c62c546-f8ef-489d-9938-d46a12c97f32',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties()
+    entityId: ENTITY_IDs.SECURITY3,
+    componentName: 'Security-3',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'FREEZER_TUNNEL_e12e0733-f5df-4604-8f10-417f49e6d298',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: [
-      {
-        propertyQueryInfo: {
-          propertyName: ALARM_PROPERTY_NAME,
-          refId: crypto.randomUUID()
-        },
-        type: 'alarm'
-      },
-      {
-        propertyQueryInfo: {
-          propertyName: DATA_PROPERTY_NAME_1,
-          refId: crypto.randomUUID()
-        },
-        threshold: { upper: 10, lower: 3 },
-        type: 'data',
-        unit: 'rpm'
-      },
-      {
-        propertyQueryInfo: {
-          propertyName: DATA_PROPERTY_NAME_2,
-          refId: crypto.randomUUID()
-        },
-        threshold: { upper: -10, lower: -40 },
-        type: 'data',
-        unit: '°F'
-      }
-    ]
+    entityId: ENTITY_IDs.IMMIGRATION,
+    componentName: 'Immigration-1',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'LABELING_BELT_5f98ffd2-ced1-48dd-a111-e3503b4e8532',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties()
+    entityId: ENTITY_IDs.IMMIGRATION2,
+    componentName: 'Immigration-2',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'PLASTIC_LINER_a77e76bc-53f3-420d-8b2f-76103c810fac',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties()
+    entityId: ENTITY_IDs.IMMIGRATION3,
+    componentName: 'Immigration-3',
+    properties: getPropertiesCheckPoints()
   },
   {
-    entityId: 'VERTICAL_CONVEYOR_d5423f7f-379c-4a97-aae0-3a5c0bcc9116',
-    componentName: COMPONENT_NAMES.DATA,
-    properties: getProperties()
+    entityId: ENTITY_IDs.GATE,
+    componentName: 'Gate1',
+    properties: getPropertiesGates()
+  },
+  {
+    entityId: ENTITY_IDs.GATE2,
+    componentName: 'Gate2',
+    properties: getPropertiesGates()
+  },
+  {
+    entityId: ENTITY_IDs.ESCALATOR1,
+    componentName: 'Escalator1',
+    properties: getPropertiesEscalator()
+  },
+  {
+    entityId: ENTITY_IDs.ESCALATOR2,
+    componentName: 'Escalator2',
+    properties: getPropertiesEscalator()
+  },
+  {
+    entityId: ENTITY_IDs.SOLAR1,
+    componentName: 'SolarPanels1',
+    properties: getPropertiesSolar()
   }
 ];
 
 export const IGNORED_ENTITIES = ['PALLET_98648a84-72da-443a-b625-f671d99a13ba'];
 
-function getProperties(): ValueOf<EntityData, 'properties'> {
+function getPropertiesCheckPoints(): ValueOf<EntityData, 'properties'> {
   return [
     {
       propertyQueryInfo: {
-        propertyName: ALARM_PROPERTY_NAME,
+        propertyName: CHECKPOINT_PROPERTY.ALARM_PROPERTY_NAME_1,
         refId: crypto.randomUUID()
       },
       type: 'alarm'
     },
     {
       propertyQueryInfo: {
-        propertyName: DATA_PROPERTY_NAME_1,
+        propertyName: CHECKPOINT_PROPERTY.DATA_PROPERTY_NAME_1,
         refId: crypto.randomUUID()
       },
-      threshold: { upper: 10, lower: 3 },
+      threshold: { upper: 30, lower: 10 },
       type: 'data',
-      unit: 'rpm'
+      unit: '#'
     },
     {
       propertyQueryInfo: {
-        propertyName: DATA_PROPERTY_NAME_2,
+        propertyName: CHECKPOINT_PROPERTY.DATA_PROPERTY_NAME_2,
         refId: crypto.randomUUID()
       },
-      threshold: { upper: 50, lower: 15 },
+      threshold: { upper: 45, lower: 15 },
       type: 'data',
-      unit: '°F'
+      unit: 'minutes'
+    }
+  ];
+}
+
+function getPropertiesGates(): ValueOf<EntityData, 'properties'> {
+  return [
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.ALARM_PROPERTY_NAME_1,
+        refId: crypto.randomUUID()
+      },
+      type: 'alarm'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_1,
+        refId: crypto.randomUUID()
+      },
+      type: 'data'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_2,
+        refId: crypto.randomUUID()
+      },
+      type: 'data',
+      unit: 'minutes'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_3,
+        refId: crypto.randomUUID()
+      },
+      type: 'data'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_4,
+        refId: crypto.randomUUID()
+      },
+      type: 'data'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_5,
+        refId: crypto.randomUUID()
+      },
+      type: 'data'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_6,
+        refId: crypto.randomUUID()
+      },
+      type: 'data'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_7,
+        refId: crypto.randomUUID()
+      },
+      type: 'data'
+    }
+  ];
+}
+
+function getPropertiesEscalator(): ValueOf<EntityData, 'properties'> {
+  return [
+    {
+      propertyQueryInfo: {
+        propertyName: ESCALATOR_PROPERTY.ALARM_PROPERTY_NAME_1,
+        refId: crypto.randomUUID()
+      },
+      type: 'alarm'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: ESCALATOR_PROPERTY.DATA_PROPERTY_NAME_1,
+        refId: crypto.randomUUID()
+      },
+      threshold: { upper: 6000, lower: 3000 },
+      type: 'data',
+      unit: 'RPM'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: ESCALATOR_PROPERTY.DATA_PROPERTY_NAME_2,
+        refId: crypto.randomUUID()
+      },
+      threshold: { upper: 80, lower: 60 },
+      type: 'data',
+      unit: 'HZ'
+    }
+  ];
+}
+
+function getPropertiesSolar(): ValueOf<EntityData, 'properties'> {
+  return [
+    {
+      propertyQueryInfo: {
+        propertyName: SOLAR_PROPERTY.ALARM_PROPERTY_NAME_1,
+        refId: crypto.randomUUID()
+      },
+      type: 'alarm'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: SOLAR_PROPERTY.DATA_PROPERTY_NAME_1,
+        refId: crypto.randomUUID()
+      },
+      threshold: { upper: 60, lower: 80 },
+      type: 'data',
+      unit: 'W'
+    },
+    {
+      propertyQueryInfo: {
+        propertyName: SOLAR_PROPERTY.DATA_PROPERTY_NAME_2,
+        refId: crypto.randomUUID()
+      },
+      threshold: { upper: 15, lower: 20 },
+      type: 'data',
+      unit: 'C'
     }
   ];
 }

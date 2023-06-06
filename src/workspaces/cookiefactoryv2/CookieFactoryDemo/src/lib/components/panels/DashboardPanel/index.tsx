@@ -61,9 +61,8 @@ export function DashboardPanel({ className }: { className?: ClassName; entityId?
         if (entitySummary) {
           properties
             .filter(({ type }) => type === 'data')
-            .forEach(({ propertyQueryInfo: { propertyName, refId } }, index) => {
+            .forEach(({ propertyQueryInfo: { propertyName, refId }, unit }, index) => {
               if (refId) {
-                const unit = propertyName === 'Speed' ? 'rpm' : '°F';
                 accum[refId] = {
                   detailedName: propertyName,
                   name: propertyName,
