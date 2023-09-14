@@ -3,19 +3,15 @@
     "component_types": [
         "com.example.relationships.json",
         "com.example.relationships.2.json",
-        "com.example.relationships.3.json"
+        "com.example.relationships.3.json",
+        "com.example.airport.passengerflow.json",
+        "com.example.synthetic-telemetry.json"
     ],
     "scenes": [
-        "Simulator1-Entities-PassengerFlow.json",
-        "Simulator1-copy.json",
-        "Simulator1.json",
-        "Simulator1-Entities-BMS.json",
-        "Simulator1-Entities-Gates.json",
-        "Airport-BMS.json",
         "Simulator1-Entities.json"
     ],
     "models": [
-        "no-arrows-people.glb"
+        "3d_models/no-arrows-people.glb"
     ],
     "entities": "entities.json"
 }
