@@ -1,90 +1,11 @@
 [
     {
-        "components": {
-            "Escalator2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "e80d2cf0-6671-44cb-9a9f-f0dbb55ed8ce"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "4d541c0b-b1b3-4d13-b5d1-19d721966aca"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "8573db7b-c03c-41f4-943e-f57addba9677",
         "entityName": "Escalator2",
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "Gate2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "c0aa158c-cc0b-4a30-925a-289a36606e92"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "9d18c238-608d-4012-942f-ff4710c92791"
-                        }
-                    }
-                }
-            },
-            "Gate2-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "c0aa158c-cc0b-4a30-925a-289a36606e92"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "9d18c238-608d-4012-942f-ff4710c92791"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "00f01643-9672-46be-bc33-94b83d8f0865",
         "entityName": "Gate2",
@@ -92,31 +13,6 @@
     },
     {
         "components": {
-            "Cleaning": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "87835962-50e3-4b97-a634-b13bbcee0e04"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            },
             "Relationships": {
                 "componentTypeId": "com.example.relationships",
                 "properties": {
@@ -149,31 +45,6 @@
     },
     {
         "components": {
-            "Fueling": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1bb1d7fd-34a8-4f38-b5b6-8f7b44ace20b"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            },
             "Relationships": {
                 "componentTypeId": "com.example.relationships",
                 "properties": {
@@ -205,149 +76,18 @@
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "KioskGroup2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ed41bfac-c841-49d7-9da1-d7b4af8ea5db"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "2bf49bce-d587-4f6d-9cca-d6680b5967df"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "250cc029-aa7b-4810-924e-523c800e2e3c",
         "entityName": "KioskGroup2",
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "KioskGroup4": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "4f5abc56-e6dd-4f86-ab69-d2f86c8429dd"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "2bf49bce-d587-4f6d-9cca-d6680b5967df"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "4cfa7561-a893-4220-b432-15495020222b",
         "entityName": "KioskGroup4",
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "Gate1": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "3eab47bf-7abb-4cf8-86e9-a1a46454ca0a"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "9d18c238-608d-4012-942f-ff4710c92791"
-                        }
-                    }
-                }
-            },
-            "Gate1-New": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "3eab47bf-7abb-4cf8-86e9-a1a46454ca0a"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "9d18c238-608d-4012-942f-ff4710c92791"
-                        }
-                    }
-                }
-            },
-            "Gate2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "c0aa158c-cc0b-4a30-925a-289a36606e92"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "9d18c238-608d-4012-942f-ff4710c92791"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b",
         "entityName": "Gate",
@@ -355,31 +95,6 @@
     },
     {
         "components": {
-            "Catering": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "471647ca-a3cc-41d3-8fd7-affb8cc53e9b"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            },
             "Relationships": {
                 "componentTypeId": "com.example.relationships",
                 "properties": {
@@ -412,173 +127,40 @@
     },
     {
         "components": {
-            "CheckIn-1": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "0b3f23e6-86cb-45fc-acae-d499a5a9fc9a"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
-                        }
-                    }
-                }
-            },
-            "CheckIn-2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "67cef5ac-79cd-4ed9-896e-46be888ae32d"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
-                        }
-                    }
-                }
-            },
-            "CheckIn-3": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "12235323-3895-4593-bce3-9eaa9b3bf847"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
-                        }
-                    }
-                }
-            },
-            "Checkin-1-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "0b3f23e6-86cb-45fc-acae-d499a5a9fc9a"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
-                        }
-                    }
-                }
-            },
-            "Checkin-2-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "67cef5ac-79cd-4ed9-896e-46be888ae32d"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
-                        }
-                    }
-                }
-            },
-            "Checkin-3-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "12235323-3895-4593-bce3-9eaa9b3bf847"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
-                        }
-                    }
-                }
-            },
-            "KVS-TEST": {
-                "componentTypeId": "com.amazon.kvs.video",
-                "properties": {
-                    "KinesisVideoStreamName": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "KVS-twin-stream"
-                        }
-                    }
-                }
-            },
             "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
+                "componentTypeId": "com.example.airport.passengerflow",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "ed6ee472-c43e-402d-8d17-78ff2130f046"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "ed6ee472-c43e-402d-8d17-78ff2130f046"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
             }
         },
         "description": "",
@@ -588,31 +170,6 @@
     },
     {
         "components": {
-            "Loading": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "850ca302-80b9-476a-adc5-9bc47db36643"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            },
             "Relationships": {
                 "componentTypeId": "com.example.relationships",
                 "properties": {
@@ -645,33 +202,40 @@
     },
     {
         "components": {
-            "Immigration-2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.passengerflow",
                 "properties": {
-                    "sitewiseAssetId": {
+                    "alarm_key": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "f670a8f1-bf55-4f78-a562-e902245951ac"
+                            "stringValue": "579ceee7-b30b-422e-a10b-8c33b4521317"
                         }
                     },
-                    "sitewiseAssetModelId": {
+                    "telemetryAssetId": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
+                            "stringValue": "579ceee7-b30b-422e-a10b-8c33b4521317"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
-            },
-            "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
             }
         },
         "description": "",
@@ -681,33 +245,40 @@
     },
     {
         "components": {
-            "Immigration-3": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.passengerflow",
                 "properties": {
-                    "sitewiseAssetId": {
+                    "alarm_key": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "72097028-bb1b-4d37-9fb0-45394ca94dc8"
+                            "stringValue": "e1ac9f3a-3703-4de2-903c-28c946b208ba"
                         }
                     },
-                    "sitewiseAssetModelId": {
+                    "telemetryAssetId": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
+                            "stringValue": "e1ac9f3a-3703-4de2-903c-28c946b208ba"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
-            },
-            "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
             }
         },
         "description": "",
@@ -717,33 +288,40 @@
     },
     {
         "components": {
-            "Security-2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.passengerflow",
                 "properties": {
-                    "sitewiseAssetId": {
+                    "alarm_key": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "987acb9d-bcb9-43ba-946f-b686bb1bfff4"
+                            "stringValue": "308154ec-4339-46f9-b1b8-5f2de98d1fb7"
                         }
                     },
-                    "sitewiseAssetModelId": {
+                    "telemetryAssetId": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
+                            "stringValue": "308154ec-4339-46f9-b1b8-5f2de98d1fb7"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
-            },
-            "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
             }
         },
         "description": "",
@@ -753,33 +331,40 @@
     },
     {
         "components": {
-            "Security-3": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.passengerflow",
                 "properties": {
-                    "sitewiseAssetId": {
+                    "alarm_key": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "ecc0b1ab-a6ab-44ca-b07c-8ac5db2d076e"
+                            "stringValue": "ca934781-394a-46fa-a68a-6c1267ec3d82"
                         }
                     },
-                    "sitewiseAssetModelId": {
+                    "telemetryAssetId": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
+                            "stringValue": "ca934781-394a-46fa-a68a-6c1267ec3d82"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
-            },
-            "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
             }
         },
         "description": "",
@@ -789,158 +374,40 @@
     },
     {
         "components": {
-            "Security-1": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1fe2f9f9-e52d-4d9a-a932-af08f3fbfc48"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
-                        }
-                    }
-                }
-            },
-            "Security-1-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "1fe2f9f9-e52d-4d9a-a932-af08f3fbfc48"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
-                        }
-                    }
-                }
-            },
-            "Security-2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "987acb9d-bcb9-43ba-946f-b686bb1bfff4"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
-                        }
-                    }
-                }
-            },
-            "Security-2-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "987acb9d-bcb9-43ba-946f-b686bb1bfff4"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
-                        }
-                    }
-                }
-            },
-            "Security-3": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ecc0b1ab-a6ab-44ca-b07c-8ac5db2d076e"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
-                        }
-                    }
-                }
-            },
-            "Security-3-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ecc0b1ab-a6ab-44ca-b07c-8ac5db2d076e"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "ccad4439-f733-4914-a26c-01b09c5a1535"
-                        }
-                    }
-                }
-            },
             "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
+                "componentTypeId": "com.example.airport.passengerflow",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "3823faed-3815-469e-ba43-d02c253fcdc6"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "3823faed-3815-469e-ba43-d02c253fcdc6"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
             }
         },
         "description": "",
@@ -950,31 +417,6 @@
     },
     {
         "components": {
-            "Deboarding": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "468936b9-bded-40ca-b4b7-bdd93107fe89"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            },
             "Relationships": {
                 "componentTypeId": "com.example.relationships.3",
                 "properties": {
@@ -1045,31 +487,6 @@
     },
     {
         "components": {
-            "Aircraft-Arrival": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "391bcdb7-c9e2-49d8-952d-d00c8b7ff457"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            },
             "Relationships": {
                 "componentTypeId": "com.example.relationships.2",
                 "properties": {
@@ -1120,33 +537,6 @@
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "KioskGroup3": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a4cde976-250b-492e-84dd-25fc0276b8d3"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "2bf49bce-d587-4f6d-9cca-d6680b5967df"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "703d78f1-38d0-44b6-bafe-54551a9d6c07",
         "entityName": "KioskGroup3",
@@ -1177,31 +567,6 @@
                         }
                     }
                 }
-            },
-            "Unloading": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "87a8a4c0-08cc-4651-bf8f-c64e101fe0e6"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
             }
         },
         "description": "",
@@ -1210,66 +575,12 @@
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "KioskGroup1": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "186f627a-5e74-4111-bb03-2aede3f43fc6"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "2bf49bce-d587-4f6d-9cca-d6680b5967df"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
         "entityName": "KioskGroup1",
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "ReadyTakeOff": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a1958a10-bad0-4c61-af83-dc9d397351a0"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "f79de777-59ca-41d4-b99d-383c1da1f765",
         "entityName": "ReadyTakeOff",
@@ -1277,33 +588,40 @@
     },
     {
         "components": {
-            "CheckIn-3": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.passengerflow",
                 "properties": {
-                    "sitewiseAssetId": {
+                    "alarm_key": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "12235323-3895-4593-bce3-9eaa9b3bf847"
+                            "stringValue": "1ab8b859-c062-4955-b775-c7127c675fe1"
                         }
                     },
-                    "sitewiseAssetModelId": {
+                    "telemetryAssetId": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
+                            "stringValue": "1ab8b859-c062-4955-b775-c7127c675fe1"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
-            },
-            "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
             }
         },
         "description": "",
@@ -1313,33 +631,40 @@
     },
     {
         "components": {
-            "CheckIn-2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.passengerflow",
                 "properties": {
-                    "sitewiseAssetId": {
+                    "alarm_key": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "67cef5ac-79cd-4ed9-896e-46be888ae32d"
+                            "stringValue": "e5b58a7d-a97e-498b-ac25-f4711bb25800"
                         }
                     },
-                    "sitewiseAssetModelId": {
+                    "telemetryAssetId": {
                         "definition": {
                             "dataType": {
                                 "type": "STRING"
                             }
                         },
                         "value": {
-                            "stringValue": "1ee6b746-9892-4b76-8f45-00e9a32dd512"
+                            "stringValue": "e5b58a7d-a97e-498b-ac25-f4711bb25800"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
-            },
-            "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
             }
         },
         "description": "",
@@ -1349,158 +674,40 @@
     },
     {
         "components": {
-            "Immigration-1": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "4fa42a73-64c4-459d-8905-e3974fb0c11c"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
-                        }
-                    }
-                }
-            },
-            "Immigration-1-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "4fa42a73-64c4-459d-8905-e3974fb0c11c"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
-                        }
-                    }
-                }
-            },
-            "Immigration-2": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "f670a8f1-bf55-4f78-a562-e902245951ac"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
-                        }
-                    }
-                }
-            },
-            "Immigration-2-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "f670a8f1-bf55-4f78-a562-e902245951ac"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
-                        }
-                    }
-                }
-            },
-            "Immigration-3": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "72097028-bb1b-4d37-9fb0-45394ca94dc8"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
-                        }
-                    }
-                }
-            },
-            "Immigration-3-new": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "72097028-bb1b-4d37-9fb0-45394ca94dc8"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "a919084e-2815-447d-b9f8-70140182fa10"
-                        }
-                    }
-                }
-            },
             "AirportDataComponent": {
-                "componentTypeId": "com.example.airport.passengerflow"
+                "componentTypeId": "com.example.airport.passengerflow",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "e1c17ea8-a68e-43eb-92e9-05979d7c74b8"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "e1c17ea8-a68e-43eb-92e9-05979d7c74b8"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
             }
         },
         "description": "",
@@ -1509,66 +716,12 @@
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "Escalator1": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "e48f3a44-52aa-466a-a928-96599dbd9e4b"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "4d541c0b-b1b3-4d13-b5d1-19d721966aca"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "5f6bae83-1954-420a-ab19-8162800fa529",
         "entityName": "Escalator1",
         "parentEntityId": "$ROOT"
     },
     {
-        "components": {
-            "SolarPanels1": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "f81d0547-4755-4045-817f-60d739d29f20"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "95eaf281-180d-4178-83ea-4efbfdf74cc6"
-                        }
-                    }
-                }
-            }
-        },
         "description": "",
         "entityId": "a6638173-8ffa-4653-b329-e1be7112d4dd",
         "entityName": "SolarPanels1",
@@ -1576,31 +729,6 @@
     },
     {
         "components": {
-            "Boarding": {
-                "componentTypeId": "com.amazon.iotsitewise.connector",
-                "properties": {
-                    "sitewiseAssetId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "2fba96c3-5634-40b1-9176-dad984bf6111"
-                        }
-                    },
-                    "sitewiseAssetModelId": {
-                        "definition": {
-                            "dataType": {
-                                "type": "STRING"
-                            }
-                        },
-                        "value": {
-                            "stringValue": "6dc13a22-04c9-49ea-bf61-c3cdfdfd1b3b"
-                        }
-                    }
-                }
-            },
             "Relationships": {
                 "componentTypeId": "com.example.relationships",
                 "properties": {
