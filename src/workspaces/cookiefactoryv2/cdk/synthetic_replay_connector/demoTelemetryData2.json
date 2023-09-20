@@ -1,4 +1,5 @@
 {"People": 12, "Dwell-Time": 23, "AlarmState": "Normal", "Name": "CheckIn-1", "Time": "00:00:00"}
+{"People": 8, "Dwell-Time": 15, "AlarmState": "Normal", "Name": "CheckIn-2", "Time": "00:00:00"}
 {"People": 6, "Dwell-Time": 5, "AlarmState": "Normal", "Name": "CheckIn-3", "Time": "00:00:00"}
 {"People": 11, "Dwell-Time": 32, "AlarmState": "Low", "Name": "Immigration-1", "Time": "00:00:00"}
 {"People": 3, "Dwell-Time": 17, "AlarmState": "Low", "Name": "Immigration-2", "Time": "00:00:00"}
