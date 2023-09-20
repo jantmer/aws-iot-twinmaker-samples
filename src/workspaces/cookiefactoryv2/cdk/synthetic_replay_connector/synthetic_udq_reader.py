@@ -59,10 +59,10 @@ simulatorName_to_entityId = {
     "ESCALATOR1": '5f6bae83-1954-420a-ab19-8162800fa529',
     "ESCALATOR2": '8573db7b-c03c-41f4-943e-f57addba9677',
     "SOLAR1": 'a6638173-8ffa-4653-b329-e1be7112d4dd',
-    "KIOSKGROUP1": '644fdebf-5c23-4b10-a6f4-2c58fe110be3',
-    "KIOSKGROUP2": '250cc029-aa7b-4810-924e-523c800e2e3c',
-    "KIOSKGROUP3": '703d78f1-38d0-44b6-bafe-54551a9d6c07',
-    "KIOSKGROUP4": '4cfa7561-a893-4220-b432-15495020222b',
+    "KioskGroup1": '644fdebf-5c23-4b10-a6f4-2c58fe110be3',
+    "KioskGroup2": '250cc029-aa7b-4810-924e-523c800e2e3c',
+    "KioskGroup3": '703d78f1-38d0-44b6-bafe-54551a9d6c07',
+    "KioskGroup4": '4cfa7561-a893-4220-b432-15495020222b',
     "AIRCRAFTARRIVAL": 'a31d3c52-b5fe-492f-9bec-5617646d6cc2',
     "DEBOARDING": 'd64414d1-bccd-49f8-9382-97c54ff3ea66',
     "FUELING": '4b85e473-e1fe-44f1-acce-a6d835bd45c0',
@@ -80,13 +80,13 @@ df['entityId'] = df.apply(remap_ids, axis=1)
 
 # re-map alarm status values to match IoT TwinMaker's com.amazon.iottwinmaker.alarm.basic component type
 def remap_alarm_status(row):
-    if row['Alarming']:
+    if row['AlarmState'] != 'Normal':
         return 'ACTIVE'
     else:
         return 'NORMAL'
 
 df['alarm_status'] = df.apply(remap_alarm_status, axis=1)
-df['AlarmMessage'] = df["Alarm Message"] # Note: no spaces allowed in property names
+df['AlarmMessage'] = df["AlarmState"] # Note: no spaces allowed in property names
 
 
 class RenderIoTTwinMakerDataRow(IoTTwinMakerDataRow):

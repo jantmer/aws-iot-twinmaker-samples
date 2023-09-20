@@ -565,7 +565,7 @@ export class CookieFactoryV2Stack extends cdk.Stack {
             timeout: cdk.Duration.minutes(15),
             logRetention: logs.RetentionDays.ONE_DAY,
             environment: {
-                "TELEMETRY_DATA_FILE_NAME": 'demoTelemetryData.json',
+                "TELEMETRY_DATA_FILE_NAME": 'demoTelemetryData2.json',
                 "TELEMETRY_DATA_TIME_INTERVAL_SECONDS": '10',
             }
         });

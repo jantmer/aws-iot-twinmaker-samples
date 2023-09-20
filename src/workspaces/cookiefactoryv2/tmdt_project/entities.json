@@ -1,11 +1,85 @@
 [
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.escalator",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "8573db7b-c03c-41f4-943e-f57addba9677"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "8573db7b-c03c-41f4-943e-f57addba9677"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "8573db7b-c03c-41f4-943e-f57addba9677",
         "entityName": "Escalator2",
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.gates",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "00f01643-9672-46be-bc33-94b83d8f0865"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "00f01643-9672-46be-bc33-94b83d8f0865"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "00f01643-9672-46be-bc33-94b83d8f0865",
         "entityName": "Gate2",
@@ -33,6 +107,41 @@
                                     }
                                 }
                             ]
+                        }
+                    }
+                }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "977a540d-936f-4bfa-9a71-7a66d7f150ea"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "977a540d-936f-4bfa-9a71-7a66d7f150ea"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
@@ -68,6 +177,41 @@
                         }
                     }
                 }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "4b85e473-e1fe-44f1-acce-a6d835bd45c0"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "4b85e473-e1fe-44f1-acce-a6d835bd45c0"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
             }
         },
         "description": "",
@@ -76,18 +220,129 @@
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.kiosks",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "250cc029-aa7b-4810-924e-523c800e2e3c"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "250cc029-aa7b-4810-924e-523c800e2e3c"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "250cc029-aa7b-4810-924e-523c800e2e3c",
         "entityName": "KioskGroup2",
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.kiosks",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "4cfa7561-a893-4220-b432-15495020222b"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "4cfa7561-a893-4220-b432-15495020222b"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "4cfa7561-a893-4220-b432-15495020222b",
         "entityName": "KioskGroup4",
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.gates",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b",
         "entityName": "Gate",
@@ -115,6 +370,41 @@
                                     }
                                 }
                             ]
+                        }
+                    }
+                }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "41ef2138-2d20-45c4-8a3b-3c329ae58e86"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "41ef2138-2d20-45c4-8a3b-3c329ae58e86"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
@@ -190,6 +480,41 @@
                                     }
                                 }
                             ]
+                        }
+                    }
+                }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "feca186d-caeb-4c74-bfc8-8908320b4154"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "feca186d-caeb-4c74-bfc8-8908320b4154"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
@@ -478,6 +803,41 @@
                         }
                     }
                 }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "d64414d1-bccd-49f8-9382-97c54ff3ea66"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "d64414d1-bccd-49f8-9382-97c54ff3ea66"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
             }
         },
         "description": "",
@@ -529,6 +889,41 @@
                         }
                     }
                 }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "a31d3c52-b5fe-492f-9bec-5617646d6cc2"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "a31d3c52-b5fe-492f-9bec-5617646d6cc2"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
             }
         },
         "description": "",
@@ -537,6 +932,43 @@
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.kiosks",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "703d78f1-38d0-44b6-bafe-54551a9d6c07"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "703d78f1-38d0-44b6-bafe-54551a9d6c07"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "703d78f1-38d0-44b6-bafe-54551a9d6c07",
         "entityName": "KioskGroup3",
@@ -567,6 +999,41 @@
                         }
                     }
                 }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "8958e6fc-97b9-4c6c-9f7d-0fe34f797375"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "8958e6fc-97b9-4c6c-9f7d-0fe34f797375"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
             }
         },
         "description": "",
@@ -575,12 +1042,86 @@
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.kiosks",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "644fdebf-5c23-4b10-a6f4-2c58fe110be3"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "644fdebf-5c23-4b10-a6f4-2c58fe110be3"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
         "entityName": "KioskGroup1",
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "f79de777-59ca-41d4-b99d-383c1da1f765"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "f79de777-59ca-41d4-b99d-383c1da1f765"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "f79de777-59ca-41d4-b99d-383c1da1f765",
         "entityName": "ReadyTakeOff",
@@ -716,12 +1257,86 @@
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.escalator",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "5f6bae83-1954-420a-ab19-8162800fa529"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "5f6bae83-1954-420a-ab19-8162800fa529"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "5f6bae83-1954-420a-ab19-8162800fa529",
         "entityName": "Escalator1",
         "parentEntityId": "$ROOT"
     },
     {
+        "components": {
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.solar",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "a6638173-8ffa-4653-b329-e1be7112d4dd"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "a6638173-8ffa-4653-b329-e1be7112d4dd"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
+                        }
+                    }
+                }
+            }
+        },
         "description": "",
         "entityId": "a6638173-8ffa-4653-b329-e1be7112d4dd",
         "entityName": "SolarPanels1",
@@ -749,6 +1364,41 @@
                                     }
                                 }
                             ]
+                        }
+                    }
+                }
+            },
+            "AirportDataComponent": {
+                "componentTypeId": "com.example.airport.turnaround",
+                "properties": {
+                    "alarm_key": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "d8e53a64-c202-40f6-aeb1-733ac9222cdd"
+                        }
+                    },
+                    "telemetryAssetId": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "d8e53a64-c202-40f6-aeb1-733ac9222cdd"
+                        }
+                    },
+                    "telemetryAssetType": {
+                        "definition": {
+                            "dataType": {
+                                "type": "STRING"
+                            }
+                        },
+                        "value": {
+                            "stringValue": "CookieLine"
                         }
                     }
                 }
