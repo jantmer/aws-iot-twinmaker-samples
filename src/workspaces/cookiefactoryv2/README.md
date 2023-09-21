@@ -1,10 +1,10 @@
-# AWS IoT TwinMaker Getting Started - Bakersville Cookie Factory Digital Twin Monitoring Application
+# AWS IoT TwinMaker Getting Started - Airport Digital Twin Monitoring Application
 
 ## Summary
 
-This project walks you through the process of setting up the Bakersville Cookie Factory Digital Twin Monitoring Application powered by AWS IoT TwinMaker.
+This project walks you through the process of setting up the Airport Digital Twin Monitoring Application powered by AWS IoT TwinMaker.
 
-![WebAppDashboard](docs/MonitoringApplication.png)
+![WebAppDashboard](docs/AirportTwin.png)
 
 ## Prerequisites
 
@@ -92,7 +92,7 @@ Note: These instructions have primarily been tested for OSX/Linux/WSL environmen
 - Deploy CDK stack containing application resources.
   ```shell
   cdk deploy \
-    --context stackName="CookieFactoryDemo" \
+    --context stackName="AirportDemo" \
     --context iottwinmakerWorkspaceId="$WORKSPACE_ID" \
     --context iottwinmakerWorkspaceBucket="$WORKSPACE_BUCKET_NAME"
   ```
@@ -105,11 +105,11 @@ Note: These instructions have primarily been tested for OSX/Linux/WSL environmen
     ```shell
     aws iottwinmaker get-property-value-history \
         --region us-east-1 \
-        --cli-input-json '{"componentName": "CookieLineComponent","endTime": "2023-06-01T01:00:00Z","entityId": "PLASTIC_LINER_a77e76bc-53f3-420d-8b2f-76103c810fac","orderByTime": "ASCENDING","selectedProperties": ["alarm_status", "AlarmMessage", "Speed"],"startTime": "2023-06-01T00:00:00Z","workspaceId": "'$WORKSPACE_ID'", "maxResults": 10}'
+        --cli-input-json '{"componentName": "AirportDataComponent","endTime": "2023-06-01T01:00:00Z","entityId": "ed6ee472-c43e-402d-8d17-78ff2130f046","orderByTime": "ASCENDING","selectedProperties": ["AlarmState", "Dwell-Time", "People"],"startTime": "2023-06-01T00:00:00Z","workspaceId": "'$WORKSPACE_ID'", "maxResults": 10}'
     ```
   - Verify entity relationships using AWS IoT TwinMaker Knowledge Graph query
     ```shell
-    aws iottwinmaker execute-query --cli-input-json '{"workspaceId": "'$WORKSPACE_ID'","queryStatement": "SELECT processStep, r1, e, r2, equipment     FROM EntityGraph     MATCH (cookieLine)<-[:isChildOf]-(processStepParent)<-[:isChildOf]-(processStep)-[r1]-(e)-[r2]-(equipment), equipment.components AS c     WHERE cookieLine.entityName = '"'"'COOKIE_LINE'"'"'     AND processStepParent.entityName = '"'"'PROCESS_STEP'"'"'     AND c.componentTypeId = '"'"'com.example.cookiefactory.equipment'"'"'"}'
+    aws iottwinmaker execute-query --cli-input-json '{"workspaceId": "'$WORKSPACE_ID'","queryStatement": "SELECT processStep, r1, e, r2, equipment     FROM EntityGraph     MATCH (cookieLine)<-[:isChildOf]-(processStepParent)<-[:isChildOf]-(processStep)-[r1]-(e)-[r2]-(equipment), equipment.components AS c     WHERE cookieLine.entityName = '"'"'COOKIE_LINE'"'"'     AND processStepParent.entityName = '"'"'PROCESS_STEP'"'"'     AND c.componentTypeId = '"'"'com.example.cookiefactory.equipment'"'"'"}' --- NEED HELP INSERTING QUERY HERE
     ```
   - Verify scene loads in console (update workspace id `__FILL_IN__`) : `https://us-east-1.console.aws.amazon.com/iottwinmaker/home?region=us-east-1#/workspaces/__FILL_IN__/scenes/CookieFactory`
 
@@ -139,15 +139,15 @@ _OPTIONAL_: View the [Amazon Cognito set-up instructions](./COGNITO_SAMPLE_SETUP
 
    ```typescript
    const sites: Record<string, SiteConfig[]> = {
-     'user@cookiefactory': [
+     "user@cookiefactory": [
        {
          iottwinmaker: {
-           sceneId: 'CookieFactory',
-           workspaceId: '__FILL_IN__',
+           sceneId: "Simulator1-Entities",
+           workspaceId: "__FILL_IN__",
          },
          id: crypto.randomUUID(),
-         location: '1 Main Street, Bakersville, NC, USA',
-         name: 'Bakersville Central',
+         location: "1 Main Street, Bakersville, NC, USA",
+         name: "Bakersville Central",
        },
      ],
    };
@@ -157,10 +157,10 @@ _OPTIONAL_: View the [Amazon Cognito set-up instructions](./COGNITO_SAMPLE_SETUP
 
    ```typescript
    const cognito: CognitoAuthenticatedFlowConfig = {
-     clientId: '__FILL_IN__',
-     identityPoolId: '__FILL_IN__',
-     region: '__FILL_IN__',
-     userPoolId: '__FILL_IN__',
+     clientId: "__FILL_IN__",
+     identityPoolId: "__FILL_IN__",
+     region: "__FILL_IN__",
+     userPoolId: "__FILL_IN__",
    };
    ```
 
@@ -169,11 +169,11 @@ _OPTIONAL_: View the [Amazon Cognito set-up instructions](./COGNITO_SAMPLE_SETUP
    ```typescript
    const users: UserConfig[] = [
      {
-       email: 'user@cookiefactory',
-       firstName: '__FILL_IN__',
-       lastName: '__FILL_IN__',
-       password: '__FILL_IN__',
-       title: '__FILL_IN__',
+       email: "user@cookiefactory",
+       firstName: "__FILL_IN__",
+       lastName: "__FILL_IN__",
+       password: "__FILL_IN__",
+       title: "__FILL_IN__",
      },
    ];
    ```
@@ -199,7 +199,7 @@ cd ../cdk
    - cdk destroy
      ```
      cdk destroy \
-       --context stackName="CookieFactoryDemo" \
+       --context stackName="AirportDemo" \
        --context iottwinmakerWorkspaceId="$WORKSPACE_ID" \
        --context iottwinmakerWorkspaceBucket="$WORKSPACE_BUCKET_NAME"
      ```

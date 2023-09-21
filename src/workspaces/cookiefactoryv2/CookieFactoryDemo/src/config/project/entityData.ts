@@ -14,16 +14,11 @@ const CHECKPOINT_PROPERTY = {
 }
 
 const GATES_PROPERTY = {
-  DATA_PROPERTY_NAME_1: 'Date',
-  DATA_PROPERTY_NAME_2: 'Departure_Delay',
-  DATA_PROPERTY_NAME_3: 'Estimated_Departure',
-  DATA_PROPERTY_NAME_4: 'Destination',
-  DATA_PROPERTY_NAME_5: 'Flight-Num',
-  DATA_PROPERTY_NAME_6: 'Origin',
-  DATA_PROPERTY_NAME_7: 'Scheduled_Departure',
-  DATA_PROPERTY_NAME_8: 'Boarded',
-  DATA_PROPERTY_NAME_9: 'Pace_Boarding',
-  ALARM_PROPERTY_NAME_1: 'Flight_State'
+  DATA_PROPERTY_NAME_1: 'Estimated_Departure',
+  DATA_PROPERTY_NAME_2: 'Destination',
+  DATA_PROPERTY_NAME_3: 'Flight-Num',
+  DATA_PROPERTY_NAME_4: 'Scheduled_Departure',
+  ALARM_PROPERTY_NAME_1: 'AlarmState'
 }
 
 const ESCALATOR_PROPERTY = {
@@ -40,12 +35,12 @@ const SOLAR_PROPERTY = {
 
 const KIOSKS_PROPERTY = {
   DATA_PROPERTY_NAME_1: 'TotalActive',
-  ALARM_PROPERTY_NAME_1: 'KioskState'
+  ALARM_PROPERTY_NAME_1: 'AlarmState'
 }
 const TURNAROUND_PROPERTY = {
   DATA_PROPERTY_NAME_1: 'Completed',
   DATA_PROPERTY_NAME_2: 'Pace_Completion',
-  ALARM_PROPERTY_NAME_1: 'State',
+  ALARM_PROPERTY_NAME_1: 'AlarmState',
   ALARM_PROPERTY_NAME_2: 'StateMessage'
 }
 
@@ -80,8 +75,7 @@ const ENTITY_IDs = {
 }
 
 export const COMPONENT_NAMES = {
-  Equipment: 'CookieLineComponent',
-  ProcessStep: 'ProcessStepComponent',
+  AirportData: 'AirportDataComponent',
   Relationships: 'Relationships'
 };
 
@@ -144,133 +138,133 @@ const PROCESS_ENTITY_DATA: EntityData[] = [
 const EQUIPMENT_ENTITY_DATA: EntityData[] = [
   {
     entityId: ENTITY_IDs.CHECKIN,
-    componentName: 'CheckIn-1',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'CheckIn-1',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.CHECKIN2,
-    componentName: 'CheckIn-2',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'CheckIn-2',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.CHECKIN3,
-    componentName: 'CheckIn-3',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'CheckIn-3',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.SECURITY,
-    componentName: 'Security-1',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'Security-1',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.SECURITY2,
-    componentName: 'Security-2',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'Security-2',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.SECURITY3,
-    componentName: 'Security-3',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'Security-3',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.IMMIGRATION,
-    componentName: 'Immigration-1',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'Immigration-1',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.IMMIGRATION2,
-    componentName: 'Immigration-2',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'Immigration-2',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.IMMIGRATION3,
-    componentName: 'Immigration-3',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesCheckPoints(),
     name: 'Immigration-3',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.GATE,
-    componentName: 'Gate1-New',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesGates(),
     name: 'Gate1',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.GATE2,
-    componentName: 'Gate2-new',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesGates(),
     name: 'Gate2',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.ESCALATOR1,
-    componentName: 'Escalator1',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesEscalator(),
     name: 'Escalator1',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.ESCALATOR2,
-    componentName: 'Escalator2',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesEscalator(),
     name: 'Escalator2',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.SOLAR1,
-    componentName: 'SolarPanels1',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesSolar(),
     name: 'SolarPanels1',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.KIOSKGROUP1,
-    componentName: 'KioskGroup1',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesKiosks(),
     name: 'KioskGroup1',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.KIOSKGROUP2,
-    componentName: 'KioskGroup2',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesKiosks(),
     name: 'KioskGroup2',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.KIOSKGROUP3,
-    componentName: 'KioskGroup3',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesKiosks(),
     name: 'KioskGroup3',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.KIOSKGROUP4,
-    componentName: 'KioskGroup4',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesKiosks(),
     name: 'KioskGroup4',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.AIRCRAFTARRIVAL,
-    componentName: 'Aircraft-Arrival',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Aircraft-Arrival',
     type: ENTITY_TYPES.Equipment,
@@ -278,56 +272,56 @@ const EQUIPMENT_ENTITY_DATA: EntityData[] = [
   },
   {
     entityId: ENTITY_IDs.DEBOARDING,
-    componentName: 'Deboarding',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Deboarding',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.FUELING,
-    componentName: 'Fueling',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Fueling',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.CATERING,
-    componentName: 'Catering',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Catering',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.CLEANING,
-    componentName: 'Cleaning',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Cleaning',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.BOARDING,
-    componentName: 'Boarding',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Boarding',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.UNLOADING,
-    componentName: 'Unloading',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Unloading',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.LOADING,
-    componentName: 'Loading',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'Loading',
     type: ENTITY_TYPES.Equipment
   },
   {
     entityId: ENTITY_IDs.READYTAKEOFF,
-    componentName: 'ReadyTakeOff',
+    componentName: COMPONENT_NAMES.AirportData,
     properties: getPropertiesTurnAround(),
     name: 'ReadyTakeOff',
     type: ENTITY_TYPES.Equipment
@@ -546,14 +540,13 @@ function getPropertiesGates(): ValueOf<EntityData, 'properties'> {
       },
       type: 'data'
     },
-    // {
-    //   propertyQueryInfo: {
-    //     propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_2,
-    //     refId: crypto.randomUUID()
-    //   },
-    //   type: 'data',
-    //   unit: 'minutes'
-    // },
+    {
+      propertyQueryInfo: {
+        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_2,
+        refId: crypto.randomUUID()
+      },
+      type: 'data',
+    },
     {
       propertyQueryInfo: {
         propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_3,
@@ -564,41 +557,6 @@ function getPropertiesGates(): ValueOf<EntityData, 'properties'> {
     {
       propertyQueryInfo: {
         propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_4,
-        refId: crypto.randomUUID()
-      },
-      type: 'data'
-    },
-    {
-      propertyQueryInfo: {
-        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_5,
-        refId: crypto.randomUUID()
-      },
-      type: 'data'
-    },
-    {
-      propertyQueryInfo: {
-        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_6,
-        refId: crypto.randomUUID()
-      },
-      type: 'data'
-    },
-    {
-      propertyQueryInfo: {
-        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_7,
-        refId: crypto.randomUUID()
-      },
-      type: 'data'
-    },
-    {
-      propertyQueryInfo: {
-        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_8,
-        refId: crypto.randomUUID()
-      },
-      type: 'data'
-    },
-    {
-      propertyQueryInfo: {
-        propertyName: GATES_PROPERTY.DATA_PROPERTY_NAME_9,
         refId: crypto.randomUUID()
       },
       type: 'data'
