@@ -43,7 +43,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "ed6ee472-c43e-402d-8d17-78ff2130f046",
-                            "componentName": "CheckIn-1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "CheckIn"
                         }
@@ -62,7 +62,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "ed6ee472-c43e-402d-8d17-78ff2130f046",
-                                    "componentName": "CheckIn-1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "CheckIn"
                                 }
@@ -73,7 +73,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "ed6ee472-c43e-402d-8d17-78ff2130f046",
-                                    "componentName": "CheckIn-1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "CheckIn"
                                 }
@@ -118,7 +118,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "e5b58a7d-a97e-498b-ac25-f4711bb25800",
-                            "componentName": "CheckIn-2",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "CheckIn-2"
                         }
@@ -133,7 +133,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "e5b58a7d-a97e-498b-ac25-f4711bb25800",
-                                    "componentName": "CheckIn-2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "CheckIn-2"
                                 }
@@ -144,7 +144,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "e5b58a7d-a97e-498b-ac25-f4711bb25800",
-                                    "componentName": "CheckIn-2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "CheckIn-2"
                                 }
@@ -189,7 +189,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "1ab8b859-c062-4955-b775-c7127c675fe1",
-                            "componentName": "CheckIn-3",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "CheckIn-3"
                         }
@@ -207,7 +207,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "1ab8b859-c062-4955-b775-c7127c675fe1",
-                                    "componentName": "CheckIn-3",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "CheckIn-3"
                                 }
@@ -218,7 +218,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "1ab8b859-c062-4955-b775-c7127c675fe1",
-                                    "componentName": "CheckIn-3",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "CheckIn-3"
                                 }
@@ -263,7 +263,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "e1c17ea8-a68e-43eb-92e9-05979d7c74b8",
-                            "componentName": "Immigration-1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "Immigration"
                         }
@@ -278,7 +278,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "e1c17ea8-a68e-43eb-92e9-05979d7c74b8",
-                                    "componentName": "Immigration-1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "Immigration"
                                 }
@@ -289,7 +289,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "e1c17ea8-a68e-43eb-92e9-05979d7c74b8",
-                                    "componentName": "Immigration-1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "Immigration"
                                 }
@@ -334,7 +334,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "579ceee7-b30b-422e-a10b-8c33b4521317",
-                            "componentName": "Immigration-2",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "Immigration-2"
                         }
@@ -349,7 +349,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "579ceee7-b30b-422e-a10b-8c33b4521317",
-                                    "componentName": "Immigration-2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "Immigration-2"
                                 }
@@ -360,7 +360,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "579ceee7-b30b-422e-a10b-8c33b4521317",
-                                    "componentName": "Immigration-2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "Immigration-2"
                                 }
@@ -405,7 +405,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "e1ac9f3a-3703-4de2-903c-28c946b208ba",
-                            "componentName": "Immigration-3",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "Immigration-3"
                         }
@@ -420,7 +420,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "e1ac9f3a-3703-4de2-903c-28c946b208ba",
-                                    "componentName": "Immigration-3",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "Immigration-3"
                                 }
@@ -431,7 +431,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "e1ac9f3a-3703-4de2-903c-28c946b208ba",
-                                    "componentName": "Immigration-3",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "Immigration-3"
                                 }
@@ -476,7 +476,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "3823faed-3815-469e-ba43-d02c253fcdc6",
-                            "componentName": "Security-1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "Security"
                         }
@@ -491,7 +491,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "3823faed-3815-469e-ba43-d02c253fcdc6",
-                                    "componentName": "Security-1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "Security"
                                 }
@@ -502,7 +502,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "3823faed-3815-469e-ba43-d02c253fcdc6",
-                                    "componentName": "Security-1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "Security"
                                 }
@@ -547,7 +547,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "308154ec-4339-46f9-b1b8-5f2de98d1fb7",
-                            "componentName": "Security-2",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "Security-2"
                         }
@@ -562,7 +562,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "308154ec-4339-46f9-b1b8-5f2de98d1fb7",
-                                    "componentName": "Security-2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "Security-2"
                                 }
@@ -573,7 +573,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "308154ec-4339-46f9-b1b8-5f2de98d1fb7",
-                                    "componentName": "Security-2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "Security-2"
                                 }
@@ -618,7 +618,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "ca934781-394a-46fa-a68a-6c1267ec3d82",
-                            "componentName": "Security-3",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "People",
                             "entityPath": "Security-3"
                         }
@@ -633,7 +633,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "ca934781-394a-46fa-a68a-6c1267ec3d82",
-                                    "componentName": "Security-3",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "People",
                                     "entityPath": "Security-3"
                                 }
@@ -644,7 +644,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "ca934781-394a-46fa-a68a-6c1267ec3d82",
-                                    "componentName": "Security-3",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Dwell-Time",
                                     "entityPath": "Security-3"
                                 }
@@ -816,8 +816,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b",
-                            "componentName": "Gate1-New",
-                            "propertyName": "Flight_State",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "Gate"
                         }
                     }
@@ -831,7 +831,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b",
-                                    "componentName": "Gate1-New",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Destination",
                                     "entityPath": "Gate"
                                 }
@@ -842,7 +842,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b",
-                                    "componentName": "Gate1-New",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Flight-Num",
                                     "entityPath": "Gate"
                                 }
@@ -853,7 +853,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b",
-                                    "componentName": "Gate1-New",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Scheduled_Departure",
                                     "entityPath": "Gate"
                                 }
@@ -864,7 +864,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "b4049f6f-2224-4ef8-b3e5-5e9b9136d66b",
-                                    "componentName": "Gate1-New",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Estimated_Departure",
                                     "entityPath": "Gate"
                                 }
@@ -909,8 +909,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "00f01643-9672-46be-bc33-94b83d8f0865",
-                            "componentName": "Gate2-new",
-                            "propertyName": "Flight_State",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "Gate2"
                         }
                     }
@@ -924,7 +924,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "00f01643-9672-46be-bc33-94b83d8f0865",
-                                    "componentName": "Gate2-new",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Destination",
                                     "entityPath": "Gate2"
                                 }
@@ -935,7 +935,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "00f01643-9672-46be-bc33-94b83d8f0865",
-                                    "componentName": "Gate2-new",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Estimated_Departure",
                                     "entityPath": "Gate2"
                                 }
@@ -946,7 +946,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "00f01643-9672-46be-bc33-94b83d8f0865",
-                                    "componentName": "Gate2-new",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Flight-Num",
                                     "entityPath": "Gate2"
                                 }
@@ -957,7 +957,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "00f01643-9672-46be-bc33-94b83d8f0865",
-                                    "componentName": "Gate2-new",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Scheduled_Departure",
                                     "entityPath": "Gate2"
                                 }
@@ -1007,7 +1007,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "5f6bae83-1954-420a-ab19-8162800fa529",
-                            "componentName": "Escalator1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "AlarmState",
                             "entityPath": "Escalator1"
                         }
@@ -1050,7 +1050,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "8573db7b-c03c-41f4-943e-f57addba9677",
-                            "componentName": "Escalator2",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "AlarmState",
                             "entityPath": "Escalator2"
                         }
@@ -1093,7 +1093,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "a6638173-8ffa-4653-b329-e1be7112d4dd",
-                            "componentName": "SolarPanels1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "AlarmState",
                             "entityPath": "SolarPanels1"
                         }
@@ -1131,7 +1131,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "5f6bae83-1954-420a-ab19-8162800fa529",
-                            "componentName": "Escalator1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "AlarmState",
                             "entityPath": "Escalator1"
                         }
@@ -1146,7 +1146,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "5f6bae83-1954-420a-ab19-8162800fa529",
-                                    "componentName": "Escalator1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "FlowRate",
                                     "entityPath": "Escalator1"
                                 }
@@ -1157,7 +1157,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "5f6bae83-1954-420a-ab19-8162800fa529",
-                                    "componentName": "Escalator1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Vibration",
                                     "entityPath": "Escalator1"
                                 }
@@ -1202,7 +1202,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "8573db7b-c03c-41f4-943e-f57addba9677",
-                            "componentName": "Escalator2",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "AlarmState",
                             "entityPath": "Escalator2"
                         }
@@ -1217,7 +1217,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "8573db7b-c03c-41f4-943e-f57addba9677",
-                                    "componentName": "Escalator2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "FlowRate",
                                     "entityPath": "Escalator2"
                                 }
@@ -1228,7 +1228,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "8573db7b-c03c-41f4-943e-f57addba9677",
-                                    "componentName": "Escalator2",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Vibration",
                                     "entityPath": "Escalator2"
                                 }
@@ -1273,7 +1273,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "a6638173-8ffa-4653-b329-e1be7112d4dd",
-                            "componentName": "SolarPanels1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "AlarmState",
                             "entityPath": "SolarPanels1"
                         }
@@ -1288,7 +1288,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "a6638173-8ffa-4653-b329-e1be7112d4dd",
-                                    "componentName": "SolarPanels1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Power",
                                     "entityPath": "SolarPanels1"
                                 }
@@ -1299,7 +1299,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "a6638173-8ffa-4653-b329-e1be7112d4dd",
-                                    "componentName": "SolarPanels1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "Temp",
                                     "entityPath": "SolarPanels1"
                                 }
@@ -1349,8 +1349,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
-                            "componentName": "KioskGroup1",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup1"
                         }
                     },
@@ -1392,8 +1392,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "250cc029-aa7b-4810-924e-523c800e2e3c",
-                            "componentName": "KioskGroup2",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup2"
                         }
                     },
@@ -1435,8 +1435,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "703d78f1-38d0-44b6-bafe-54551a9d6c07",
-                            "componentName": "KioskGroup3",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup3"
                         }
                     },
@@ -1478,8 +1478,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "4cfa7561-a893-4220-b432-15495020222b",
-                            "componentName": "KioskGroup4",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup4"
                         }
                     },
@@ -1521,8 +1521,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
-                            "componentName": "KioskGroup1",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup1"
                         }
                     },
@@ -1564,8 +1564,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "250cc029-aa7b-4810-924e-523c800e2e3c",
-                            "componentName": "KioskGroup2",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup2"
                         }
                     },
@@ -1607,8 +1607,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "703d78f1-38d0-44b6-bafe-54551a9d6c07",
-                            "componentName": "KioskGroup3",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup3"
                         }
                     },
@@ -1650,8 +1650,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "4cfa7561-a893-4220-b432-15495020222b",
-                            "componentName": "KioskGroup4",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup4"
                         }
                     },
@@ -1693,8 +1693,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
-                            "componentName": "KioskGroup1",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup1"
                         }
                     },
@@ -1736,8 +1736,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "250cc029-aa7b-4810-924e-523c800e2e3c",
-                            "componentName": "KioskGroup2",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup2"
                         }
                     },
@@ -1779,8 +1779,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "703d78f1-38d0-44b6-bafe-54551a9d6c07",
-                            "componentName": "KioskGroup3",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup3"
                         }
                     },
@@ -1822,8 +1822,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "4cfa7561-a893-4220-b432-15495020222b",
-                            "componentName": "KioskGroup4",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup4"
                         }
                     },
@@ -1865,8 +1865,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
-                            "componentName": "KioskGroup1",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup1"
                         }
                     },
@@ -1908,8 +1908,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "250cc029-aa7b-4810-924e-523c800e2e3c",
-                            "componentName": "KioskGroup2",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup2"
                         }
                     },
@@ -1951,8 +1951,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "703d78f1-38d0-44b6-bafe-54551a9d6c07",
-                            "componentName": "KioskGroup3",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup3"
                         }
                     },
@@ -1994,8 +1994,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "4cfa7561-a893-4220-b432-15495020222b",
-                            "componentName": "KioskGroup4",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup4"
                         }
                     },
@@ -2037,8 +2037,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
-                            "componentName": "KioskGroup1",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup1"
                         }
                     },
@@ -2080,8 +2080,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "250cc029-aa7b-4810-924e-523c800e2e3c",
-                            "componentName": "KioskGroup2",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup2"
                         }
                     },
@@ -2123,8 +2123,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "703d78f1-38d0-44b6-bafe-54551a9d6c07",
-                            "componentName": "KioskGroup3",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup3"
                         }
                     },
@@ -2166,8 +2166,8 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "4cfa7561-a893-4220-b432-15495020222b",
-                            "componentName": "KioskGroup4",
-                            "propertyName": "KioskState",
+                            "componentName": "AirportDataComponent",
+                            "propertyName": "AlarmState",
                             "entityPath": "KioskGroup4"
                         }
                     },
@@ -2204,7 +2204,7 @@
                     "valueDataBinding": {
                         "dataBindingContext": {
                             "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
-                            "componentName": "KioskGroup1",
+                            "componentName": "AirportDataComponent",
                             "propertyName": "TotalActive",
                             "entityPath": "KioskGroup1"
                         }
@@ -2222,7 +2222,7 @@
                             "valueDataBinding": {
                                 "dataBindingContext": {
                                     "entityId": "644fdebf-5c23-4b10-a6f4-2c58fe110be3",
-                                    "componentName": "KioskGroup1",
+                                    "componentName": "AirportDataComponent",
                                     "propertyName": "TotalActive",
                                     "entityPath": "KioskGroup1"
                                 }
@@ -2279,15 +2279,15 @@
         "Gate-Rule": {
             "statements": [
                 {
-                    "expression": "Flight_State == \"On TIme\"",
+                    "expression": "AlarmState == \"On TIme\"",
                     "target": "iottwinmaker.common.icon:Info"
                 },
                 {
-                    "expression": "Flight_State == \"Delayed\"",
+                    "expression": "AlarmState == \"Delayed\"",
                     "target": "iottwinmaker.common.icon:Warning"
                 },
                 {
-                    "expression": "Flight_State == \"Cancelled\"",
+                    "expression": "AlarmState == \"Cancelled\"",
                     "target": "iottwinmaker.common.icon:Error"
                 }
             ]
@@ -2319,11 +2319,11 @@
         "Kiosk-Rule": {
             "statements": [
                 {
-                    "expression": "KioskState == \"Medium\"",
+                    "expression": "AlarmState == \"Medium\"",
                     "target": "iottwinmaker.common.color:#ffe600"
                 },
                 {
-                    "expression": "KioskState == \"High\"",
+                    "expression": "AlarmState == \"High\"",
                     "target": "iottwinmaker.common.color:#d13212"
                 }
             ]
